@@ -28,3 +28,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-url]: https://github.com/manojchrsya/cheat-sheet/blob/main/LICENSE
 [issues-shield]: https://img.shields.io/github/forks/olivierloverde/minutes-of-javascript.svg?style=for-the-badge
 [issues-url]: https://img.shields.io/github/issues/manojchrsya/cheat-sheet
+
+## Reference
+
+https://github.com/olivierloverde/minutes-of-javascript
