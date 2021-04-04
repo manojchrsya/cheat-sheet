@@ -1,4 +1,5 @@
-// basic commands which can be usefull in day to day for development
+#### Basic commands which can be usefull in day to day for development
+
 > for below commands we have considered default username as `ubuntu` and ipaddress as `12.12.12.12`
 
 ```sh
