@@ -1,9 +1,9 @@
 #### Create custom commands in ubuntu or mac
 
 > Sometimes we may have to use command in order to execute script or build project.
-> we also use some commands in case of services like `docker`, `nginx`, `apache` etc.
+> we also use some commands while using other services like `docker`, `nginx`, `apache` etc.
 
-for example, suppose we have to stop and start docker container's of project
+for an example, suppose we have to stop and start docker container's of a project.
 ```sh
  // we can use `&&` oprator for multiple commands and execute in one go.
  sudo docker-compose stop && sudo docker-compose up -d
@@ -20,5 +20,15 @@ usually `alias` are use to create some custom shortcut to execute your set of co
 to get list of all available `alias`, directly execute `alias` in **terminal**.
 
 
+to create new `alias`,we need to update `.bashrc` file or if you are using `oh-my-zsh` then edit `.zshrc` file.
 
+```sh
+vim ~/.zshrc
+// add below entry in file
+restart-project = "cd ~/project-path && sudo docker-compose stop && sudo docker-compose up -d"
 
+//  after save and exit from file
+source ~/.zshrc // to make an effect new created alias
+```
+
+now we just have to execute `restart-project` in terminal.
