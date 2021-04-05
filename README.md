@@ -15,10 +15,10 @@ Cheat sheet and some basic tricks used for development.
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. If you're writing a new snippet, do not forget to update the <a href="#-minutes-listing">Minutes listing</a> section accordingly
-5. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature-name`)
+3. Commit your Changes (`git commit -m 'Add some Feature'`)
+4. If you're writing a new snippet, do not forget to update the <a href="#">Snippets listing</a> section accordingly
+5. Push to the Branch (`git push origin feature-name`)
 6. Open a Pull Request
 
 ## License
