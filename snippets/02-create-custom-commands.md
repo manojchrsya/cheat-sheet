@@ -27,8 +27,18 @@ vim ~/.zshrc
 // add below entry in file
 restart-project = "cd ~/project-path && sudo docker-compose stop && sudo docker-compose up -d"
 
+// some useful stuff you can achive like loggin in remote server
+staging = "sudo ssh -i ~/mysecreatfile.pem -p 9670 ubuntu@12.12.12.12"
+
+// you can create `function` as an alias
+// suppose we have to checkout existing branch in project
+ckout() { git checkout $1; }
+
 //  after save and exit from file
 source ~/.zshrc // to make an effect new created alias
+
+// to call alias function
+ckout master
 ```
 
 now we just have to execute `restart-project` in terminal.

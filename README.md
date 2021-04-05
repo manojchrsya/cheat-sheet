@@ -7,7 +7,7 @@ Cheat sheet and some basic tricks used for development.
 ## Snippets listing
 
 1. [Basic and useful terminal commands](snippets/01-basic-terminal-commands.md)
-2. [Create your own custom commands`](snippets/02-create-custom-commands.md)
+2. [Create your own custom commands](snippets/02-create-custom-commands.md)
 
 
 ## Contributing
